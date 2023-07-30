@@ -11,6 +11,7 @@
 		32F201812A75E582009C4D06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F201802A75E582009C4D06 /* ContentView.swift */; };
 		32F201832A75E584009C4D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F201822A75E584009C4D06 /* Assets.xcassets */; };
 		32F201862A75E584009C4D06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F201852A75E584009C4D06 /* Preview Assets.xcassets */; };
+		32F2018D2A75E5C0009C4D06 /* SudzyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F2018C2A75E5BF009C4D06 /* SudzyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		32F201802A75E582009C4D06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32F201822A75E584009C4D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32F201852A75E584009C4D06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32F2018C2A75E5BF009C4D06 /* SudzyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudzyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				32F2017E2A75E582009C4D06 /* Mod5_Lesson7_WKWebViewApp.swift */,
 				32F201802A75E582009C4D06 /* ContentView.swift */,
+				32F2018C2A75E5BF009C4D06 /* SudzyView.swift */,
 				32F201822A75E584009C4D06 /* Assets.xcassets */,
 				32F201842A75E584009C4D06 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F2018D2A75E5C0009C4D06 /* SudzyView.swift in Sources */,
 				32F201812A75E582009C4D06 /* ContentView.swift in Sources */,
 				32F2017F2A75E582009C4D06 /* Mod5_Lesson7_WKWebViewApp.swift in Sources */,
 			);

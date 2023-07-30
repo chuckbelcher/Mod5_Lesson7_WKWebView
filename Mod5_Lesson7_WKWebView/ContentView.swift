@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isPresentWebView = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            Button ("Open Sudzy View") {
+                isPresentWebView = true
+            }
+                .sheet(isPresented: $isPresentWebView) {
+                    NavigationStack {
+                        SudzyView(url: URL(string: "https://www.sudzypets.com")!)
+                            .navigationBarTitleDisplayMode(.inline)
+                            .navigationTitle("Working Web")
+                            .foregroundColor(.black)
+                    }
+                }
+            
+
+            
         }
-        .padding()
+        
     }
 }
 
